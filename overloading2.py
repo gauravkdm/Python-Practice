@@ -1,0 +1,12 @@
+from overloading import pen
+p1=pen()
+p1.create_pen()
+p1.view_pen()
+p1.create_pen("red")
+p1.view_pen()
+p1.create_pen(sz="5cms",sh="ballpen")
+p1.view_pen()
+p1.create_pen("red","cello","5cms")
+p1.view_pen()
+p1.create_pen("red","pillot","5cms","oval")
+p1.view_pen()
